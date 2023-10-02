@@ -7,7 +7,6 @@
 
 class Livraria {
 public:
-//
 	Livraria();
 
     void adicionarLivro(const Livro& livro);

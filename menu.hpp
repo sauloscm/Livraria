@@ -13,10 +13,8 @@ private:
     int exibirMenu() const;
     void listarLivros() const;
     void adicionarLivro();
-    ///void editarLivro();
     void excluirLivro();
     void pesquisarLivro() const;
-	///void editarLivroDetalhado();
 	void menuEditarLivro(); 
 	
 

@@ -2,7 +2,7 @@
 
 
 Livro::Livro() {
-    //Inicialize membros, se necessário.
+    
 }
 
 Livro::Livro(const std::string& titulo, const std::string& autor, int anoPublicacao)
