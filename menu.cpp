@@ -53,7 +53,7 @@ void Menu::editarLivro() {
     std::string novoNome; 
     std::string novoAutor;
     
-    // chamando a função menuEditarLivro para mostrar as opções
+    //chamando a função menuEditarLivro para mostrar as opções
     menuEditarLivro();
 
     int opcao;
@@ -61,7 +61,7 @@ void Menu::editarLivro() {
     
     switch (opcao) {
         case 1:
-            // Editar nome do livro
+            //Editar nome do livro
             std::cout << "Novo nome do livro: ";
             std::cin.ignore();
             std::getline(std::cin, novoNome);
@@ -75,7 +75,7 @@ void Menu::editarLivro() {
             livraria.editarLivro(titulo, "", novoAutor, 0);
             break;
         case 3:
-            // Editar ano de publicação
+            //Editar ano de publicação
             int novoAno;
             std::cout << "Novo ano de publicação: ";
             std::cin >> novoAno;
